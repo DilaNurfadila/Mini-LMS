@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/page-css/login.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container-login">
+        <div class="form">
+            <p>LOGIN</p>
+            <form>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id="password">
+                </div>
+                <button type="submit" class="btn btn-success">LOGIN</button>
+            </form>
+            <div class="fp-su">
+                <p>Forgot Password? <a href="#">Reset</a></p>
+                <p>Don't Have an Account? <a href="#su">Sign Up</a></p>
+                <div class="overlay" id="su">
+                    <div class="con">
+                        <a href="">
+                            <div class="line-1"></div>
+                            <div class="line-2"></div>
+                        </a>
+                    </div>
+                    <div class="btn-ekskul"><a href="../page/register-ekskul.html">Ekskul</a></div>
+                    <div class="btn-sekolah"><a href="../page/register-sekolah.html">Sekolah</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <span class="footer">&copy; Copyright D'Techno 2020. All right reserved</span>
+        <!-- End Footer -->
+    </div>
+
+    <script src="../node_modules/bootstrap/dist/js/jquery-3.5.1.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/page-js/login.js"></script>
+</body>
+</html>
