@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/page-css/register-ekskul.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/page-css/register-sekolah.css">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <title>Register Ekskul</title>
+    <title>Register Sekolah</title>
 </head>
 <body>
-    <!-- Container-regekskul -->
-    <div class="container-regekskul">
+    <!-- Container-regsekolah -->
+    <div class="container-regsekolah">
 
         <!-- Form -->
         <div class="form">
-            <p class="title">REGISTER EKSKUL</p>
+            <p class="title">REGISTER SEKOLAH</p>
             <form>
                 <div class="form-group">
                   <label for="nama" class="nama">Nama Lengkap</label>
@@ -30,8 +30,21 @@
                   </select>
                 </div>
                 <div class="form-group">
+                    <label for="nis-nisn" class="nis-nisn">NIS / NISN</label>
+                    <input type="text" class="form-control" id="nis-nisn" placeholder="101xxxxxx / 003xxxxxxx">
+                </div>
+                <div class="form-group">
                     <label for="jurusan" class="jurusan">Jurusan</label>
                     <input type="text" class="form-control" id="jurusan" placeholder="RPL / Rekayasa Perangkat Lunak">
+                </div>
+                <div class="form-group">
+                    <label for="ttl" class="ttl">Tempat Tanggal Lahir</label>
+                    <input type="text" class="form-control" id="ttl" placeholder="City">
+                    <input type="date" class="form-control tanggal">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
                 </div>
             </form>
             <button type="button" class="btn btn-success register">Register</button>
